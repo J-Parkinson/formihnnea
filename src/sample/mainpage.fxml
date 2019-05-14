@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="1920.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="sample.Mainpage">
+  <children>
+      <AnchorPane prefHeight="1920.0" prefWidth="1080.0">
+         <children>
+            <ListView prefHeight="1920.0" prefWidth="1080.0" />
+            <MenuButton id="menu" mnemonicParsing="false" text="Menu" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="40.0">
+              <items>
+                <MenuItem id="settingsButton" mnemonicParsing="false" onAction="#navigateToSettings" text="Settings" />
+              </items>
+            </MenuButton>
+         </children>
+      </AnchorPane>
+  </children>
+</VBox>
